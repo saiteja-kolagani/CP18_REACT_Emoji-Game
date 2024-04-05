@@ -1,0 +1,21 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.emoji-cards-container {
+  width: 60%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

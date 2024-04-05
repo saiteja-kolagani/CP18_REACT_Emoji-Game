@@ -1,0 +1,54 @@
+/* Write your code here. */
+.win-or-lose-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  border-radius: 10px;
+  border: 2px solid #ffffff30;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.win-or-lose-text-container {
+  margin-right: 20px;
+  text-align: center;
+}
+.win-or-lose-image-container {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+.win-or-lose-image {
+  width: 100%;
+}
+.win-or-lose-heading {
+  font-size: 30px;
+  color: #ffffff;
+}
+.win-or-lose-para {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.win-or-lose-score {
+  font-size: 28px;
+  color: #6a59ff;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.win-or-lose-button {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 12px;
+  cursor: pointer;
+}
